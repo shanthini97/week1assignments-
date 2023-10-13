@@ -1,12 +1,13 @@
 package week1;
 
-public class Browser {
+public class Bike {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		System.out.print("This is my Browser");
-
+		Car cr=new Car();
+        cr.applyBreak();
+   	    cr.soundHorn();
+   	    
 	}
 
 }
